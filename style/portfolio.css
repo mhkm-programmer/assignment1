@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner style start here  */
+
+.banner{
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    background-position: left bottom;
+    height: 720px;
+    
+}
+
+.banner-text{
+    text-align: right;
+    padding-top: 220px;
+    padding-right: 120px;
+}
+
+.banner-text h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.banner-text p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.btn-primary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+
+}
+
+/* Portfolio style start here  */
+
+.portfolio-sections, .footer-section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* Profile feature style start here  */
+
+.feature{
+
+}
+
+.feature-image{
+
+}
+
+.feature-text{
+
+}
+
+.feature-text ul li{
+    padding-left: 5px;
+}
+
+.feature-text ul li::marker{
+    content: '✓';
+    color: green;
+}
+
+/* Plans style start here */
+
+.plans{
+
+}
+
+.plan-card{
+
+}
+
+.plan-card img{
+
+}
+
+.plan-card h3{
+
+}
+
+.plan-card p{
+
+}
+
+/* Package price style here  */
+
+.package{
+
+}
+
+.package h4{
+
+}
+
+.package h3{
+
+}
+
+.card{
+
+}
+
+.price-card{
+
+}
+
+.price-card h3{
+
+}
+
+.price-card h4{
+
+}
+
+.price-card ul{
+
+}
+
+.price-card ul li{
+    padding-left: 5px;
+}
+
+.price-card ul li::marker{
+    content: '✓';
+    color: green;
+}
+
+.btn-secondary{
+    
+}
+
+/* Contact style here  */
+
+.contact{
+
+}
+
+.contact-text{
+
+}
+
+/* footer style here  */
+
+footer{
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer-section{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 100px;
+
+}
+
+.footer-text-and-icon{
+
+}
+
+.footer-text-and-icon{
+
+}
+
+.footer-text{
+
+}
+
+.footer-text h3{
+
+}
+
+.footer-text p{
+
+}
+
+.social-icon{
+
+}
+
+.social-icon a{
+
+}
+
+.newsletter{
+    
+}
+
+.newsletter h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.newsletter p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.newsletter input{
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.newsletter input placeholder
+
+.copyrights{
+    color: #FFFFFF;
+    text-align: center;   
+}
