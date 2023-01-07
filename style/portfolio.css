@@ -100,59 +100,101 @@ img{
 }
 
 /* Plans style start here */
-
 .plans{
+padding-bottom: 100px;
+}
 
+.plan-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.plans-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .plan-card{
-
+    
 }
 
-.plan-card img{
-
+.plan-card-img{
+    margin: auto;
 }
 
 .plan-card h3{
-
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 .plan-card p{
-
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* Package price style here  */
 
 .package{
+    margin-bottom: 100px;
+}
+
+.package-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    color: #005FAC;
+    text-align: center;
 
 }
 
-.package h4{
-
-}
-
-.package h3{
-
+.package-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .card{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .price-card{
-
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .price-card h3{
-
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
 }
 
 .price-card h4{
-
+    font-weight: 600;
+    font-size: 25px;
+    color: #005FAC;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .price-card ul{
-
+    padding-top: 10px;
+    
 }
 
 .price-card ul li{
@@ -165,17 +207,38 @@ img{
 }
 
 .btn-secondary{
-    
+    color:#FFFFFF;
+    background-color: #151414;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #151514;
+    margin-top: 25px;
 }
 
 /* Contact style here  */
 
 .contact{
-
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+    background-blend-mode: multiply;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
-.contact-text{
+.contact-content{
+    padding-top: 60px;
+    padding-left: 65px;
+}
 
+.contact-content-title{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 /* footer style here  */
@@ -191,19 +254,6 @@ footer{
     display: flex;
     gap: 100px;
     padding-bottom: 100px;
-
-}
-
-.footer-text-and-icon{
-
-}
-
-.footer-text-and-icon{
-
-}
-
-.footer-text{
-
 }
 
 .footer-text h3{
