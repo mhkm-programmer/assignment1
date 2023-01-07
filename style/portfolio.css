@@ -55,17 +55,40 @@
 /* Profile feature style start here  */
 
 .feature{
-
+   
+   padding-top: 120px;
+   padding: 80px;
+  
 }
 
-.feature-image{
+.feature-content{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
 
+
+.feature-image{
+    background-size: cover;
+    background-position: center;
+   background-position: left center;
 }
 
 .feature-text{
-
+  padding-top: 50px;
 }
 
+.feature-text h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.feature-text p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .feature-text ul li{
     padding-left: 5px;
 }
@@ -183,19 +206,25 @@ footer{
 }
 
 .footer-text h3{
+    font-weight: 700;
+    font-size: 40px;
 
 }
 
 .footer-text p{
-
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .social-icon{
+    padding-top: 15px;
 
 }
 
 .social-icon a{
-
+    padding: 5px;
 }
 
 .newsletter{
@@ -217,11 +246,14 @@ footer{
 .newsletter input{
     padding: 10px;
     margin-bottom: 25px;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
 
-.newsletter input placeholder
-
-.copyrights{
+.copyright{
     color: #FFFFFF;
     text-align: center;   
 }
